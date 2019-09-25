@@ -6,7 +6,7 @@ Unix Packages: SRA Toolkit version 2.9.0, BBTools v38, STAR v2.6.9c, RSEM v1.3.1
 R Packages: tximport, EdgeR, limma, ggplot, ggpubr, reshape2
 
 ### System Requirement
-Minimum: 16GB RAM 
+Minimum: 16GB RAM <br/>
 Recommended: 32GB+ RAM
 
 ### Usage
