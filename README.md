@@ -13,6 +13,8 @@ Recommended: 32GB+ RAM
 1. Create a Tab-delimited file with SRA Accession IDs in first column <br/>
 2. Specify your inputs in Config.sh File <br/>
 3. From RNA-Seq-Pipeline directory run the following command: <br/>
-`./Run.sh`
+```bash
+./Run.sh
+```
 
 
