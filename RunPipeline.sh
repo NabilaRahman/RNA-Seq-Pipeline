@@ -6,7 +6,7 @@ export inputFile  species project tx2gene gene2sym filterGenes genefilter functi
 if [[ $validated == "true" ]]
 	then
 	./Scripts/DownloadFastQ.sh && \
-	./Scripts/Trim-BBMap.sh && \
+	./Scripts/Trim-BBTools.sh && \
 	./Scripts/Align-STAR.sh && \
 	./Scripts/ReadCounts-RSEM.sh && \
 	Rscript ./Scripts/SummariseGene.R
