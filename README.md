@@ -9,6 +9,11 @@ R Packages: tximport, EdgeR, limma, ggplot, ggpubr, reshape2
 Minimum: 16GB RAM <br/>
 Recommended: 32GB+ RAM
 
+### Prerequisite Files
+1. FASTA: Genome Assembly of your choice as a single FASTA file. <br/>
+2. GTF: Gene Annotation File in GTF format
+3. TX2GENE: A Transcript ID to Gene ID Conversion table for RSEM. IMPORTANT: Has to match IDs in your GTF file.
+
 ### Usage
 1. Create a Tab-delimited file with SRA Accession IDs in first column <br/>
 2. Specify your inputs in Config.sh File <br/>
