@@ -8,3 +8,11 @@ R Packages: tximport, EdgeR, limma, ggplot, ggpubr, reshape2
 ### System Requirement
 Minimum: 16GB RAM 
 Recommended: 32GB+ RAM
+
+### Usage
+1. Create a Tab-delimited file with SRA Accession IDs in first column <br/>
+2. Specify your inputs in Config.sh File <br/>
+3. From RNA-Seq-Pipeline directory run the following command: <br/>
+`./Run.sh`
+
+
